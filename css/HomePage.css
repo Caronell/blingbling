@@ -1,0 +1,433 @@
+.main .mid-nav {
+	width: 78%;
+	height: 20px;
+	margin: 1% auto;
+	margin-bottom: 2%;
+}
+
+.mid-nav ul {
+	list-style: none;
+}
+
+.mid-nav ul .mid-nav-con {
+	width: auto;
+	height: 2.2em;
+	padding: 0.1em 0.8em;
+	line-height: 1;
+	float: left;
+	font-size: 13px;
+}
+
+.mid-nav ul .mid-nav-con:hover {
+	cursor: pointer;
+}
+
+.mid-nav-con .pic {
+	width: 20px;
+	margin: 0 3px;
+	margin-bottom: -5%;
+	background-image: url(../img/icons.png);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+}
+
+.mid-nav-con .num {
+	width: auto;
+	margin: 0 auto;
+	margin-bottom: 0.5em;
+	border-radius: 3px;
+	background: hotpink;
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	padding: 0.1em 0;
+}
+
+.main .video_command {
+	width: 82%;
+	padding-bottom: 20%;
+	margin: 1% 9%;
+}
+
+.video_command .command_big {
+	width: 45%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+.video_command .command_big .pic {
+	width: 500%;
+	list-style: none;
+	margin: 0;
+}
+
+.video_command .command_big .pic:hover {
+	cursor: pointer;
+}
+
+.pic li {
+	float: left;
+	width: 20%;
+	margin: 0;
+}
+
+.pic li img {
+	z-index: 1;
+}
+
+.pic li .readmore {
+	float: right;
+	position: relative;
+	width: 3.1em;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,.5);
+	font-size: 12px;
+	color: white;
+	margin-top: -80px;
+	margin-right: 5%;
+	padding: 5px 8px;
+	z-index: 3;
+	display: none;
+	transition: text-shadow 0.2s;
+}
+
+.pic li .readmore:hover {
+	text-shadow: 0 0 3px lightgoldenrodyellow;
+}
+
+.command_big .pic .title {
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: linear-gradient(to top,rgba(0,0,0,.8),transparent);
+	color: white;
+	margin-top: -50px;
+	padding: 10px;
+	padding-bottom: 5px;
+	margin-right: 10px;
+	overflow: hidden;
+	z-index: 2;
+	position: relative;
+	font-size: 14px;
+}
+
+.video_command .command_big img {
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.video_command .command_small {
+	width: 55%;
+	height: 100%;
+	float: left;
+}
+
+.command_small .box_title {
+	width: 100%;
+	height: 1em;
+	line-height: 1em;
+	padding: 0.2em 0;
+	color: black;
+	font-size: large;
+	padding-left: 1em;
+	margin-left: 0.5em;
+	letter-spacing: 0.1em;
+	font-weight: 600;
+	background-image: linear-gradient(to right,gold,white);
+	border-radius: 10px;
+}
+
+.command_small .line {
+	width: 100%;
+	height: 50%;
+	float: left;
+	padding-bottom: 1.2em;
+}
+
+.command_small .line .con {
+	width: 29%;
+	height: 50%;
+	float: left;
+	border-radius: 5px;
+	margin-left: 3.5%;
+}
+
+.command_small .line .con:hover {
+	cursor: pointer;
+}
+
+.command_small .line .con:hover .title {
+	margin-top: -63%;
+	padding-bottom: 46%;
+	padding-top: 5%;
+	background: rgba(0,0,0,.6);
+}
+
+.command_small .line .con:hover .title_text {
+	height: 3em;
+	overflow: hidden;
+}
+
+.command_small .line .con:hover .detail {
+	bottom: 5px;
+	display: block;
+}
+
+.command_small .line .con img {
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.command_small .line .con .title {
+	width: 95%;
+	height: 20px;
+	line-height: 20px;
+	margin-top: -27px;
+	padding: 5px 3px 3px 5px;
+	color: white;
+	background: linear-gradient(to top,rgba(0,0,0,.8),transparent);
+	font-size: 12px;
+	border-radius: 5px;
+	overflow: hidden;
+	z-index: 2;
+	position: relative;
+}
+
+.con .title .detail {
+	color: gainsboro;
+	font-size: 12px;
+	display: none;
+	position: absolute;
+}
+
+.Bling {
+	width: 82%;
+	min-width: 1000px;
+	height: 400px;
+	margin: 0 auto;
+	margin-bottom: 5%;
+}
+
+.Bling .area_title {
+	width: 100%;
+	height: 1.2em;
+	line-height: 1.2em;
+	padding: 0 0 0 0.5em;
+	font-size: xx-large;
+	border-radius: 10px;
+	margin-bottom: 0.6em;
+}
+
+.Bling .video_area {
+	width: 70%;
+	height: 400px;
+	float: left;
+}
+
+.video_area .con {
+	width: 23%;
+	height: 45%;
+	margin: 0 1% -2% 1%;
+	border-radius: 5px;
+	float: left;
+	overflow: hidden;
+}
+
+.video_area .con:hover {
+	cursor: pointer;
+}
+
+.video_area .con:hover .title{
+	padding-bottom: 1.2em;
+}
+
+.video_area .con:hover .info{
+	height: 0;
+}
+
+.video_area .con .video_cover {
+	width: 100%;
+	height: 58%;
+	display: block;
+	border-radius: 5px;
+	background-color: transparent;
+	background-attachment: scroll;
+	background-size: cover;
+}
+
+.video_cover .blacklayer {
+	bottom: 0;
+	width: 96%;
+	height: 20%;
+	background-color: transparent;
+	color: transparent;
+	font-size: 12px;
+	padding-left: 4%;
+	padding-top: 50%;
+	transition: all 0.3s;
+	border-radius: 5px;
+}
+
+.video_area .con:hover .blacklayer{
+	background-color: rgba(0,0,0,.3);
+	color: white;
+}
+
+.video_area .con .title {
+	position: relative;
+	width: 98%;
+	height: 1.5em;
+	padding: 0 1%;
+	overflow: hidden;
+	font-size: 13px;
+	color: black;
+	text-align: left;
+	margin-top: 5px;
+	transition: all 0.2s;
+	z-index: 2;
+	background-color: white;
+}
+
+.con .info {
+	position: relative;
+	width: 100%;
+	height: 1.5em;
+	color: darkgray;
+	font-size: 12px;
+	overflow: hidden;
+	z-index: 1;
+	transition: all 0.2s;
+}
+
+.info .playnums {
+	float: left;
+	width: 50%;
+}
+
+.info .iconpic {
+	float: left;
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/icons.png);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: 1066px;
+} 
+
+.info .danmunums {
+	float: left;
+	width: 50%;
+}
+
+.Bling .ranklist {
+	width: 27%;
+	height: 370px;
+	float: left;
+	margin-left: 2%;
+	margin-top: -3%;
+	border-left: solid 1px gainsboro;
+}
+
+.ranklist .title {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	font-size: x-large;
+	text-align: center;
+}
+
+.ranklist .ranklist_main {
+	width: 100%;
+	height: 370px;
+	margin-top: 10px;
+}
+
+.ranklist_main ul {
+	list-style: none;
+}
+
+.ranklist_main ul .rankline {
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	display: block;
+	margin-bottom: 21px;
+}
+
+.ranklist_main ul .rankline:hover {
+	cursor: pointer;
+}
+
+.ranklist_main ul .rankline:hover .video_name {
+	color: dodgerblue;
+}
+
+.rankline .index_top {
+	width: 1em;
+	height: 1em;
+	line-height: 1em;
+	margin: 0.2em 0.2em 0.2em 0.8em;
+	background-color: gold;
+	color: white;
+	border-radius: 4px;
+	float: left;
+	font-size: 14px;
+	text-align: center;
+	padding: 0.2em;
+	font-weight: bold;
+}
+
+.rankline .index_common {
+	width: 1em;
+	height: 1em;
+	line-height: 1em;
+	margin: 0.2em 0.2em 0.2em 0.8em;
+	background-color: darkgray;
+	color: white;
+	border-radius: 4px;
+	float: left;
+	font-size: 14px;
+	text-align: center;
+	padding: 0.2em;
+	font-weight: bold;
+}
+
+.rankline .video_name {
+	width: 80%;
+	min-width: 10em;
+	height: 1em;
+	line-height: 1em;
+	white-space: nowrap;
+	float: left;
+	font-size: 14px;
+	margin-top: 0.4em;
+	margin-left: 0.2em;
+	overflow: hidden;
+}
+
+.ranklist .btn_more {
+	width: 90%;
+	height: 2em;
+	line-height: 2em;
+	font-size: 12px;
+	text-align: center;
+	color: black;
+	background: gainsboro;
+	border-radius: 5px;
+	margin: 1% 5%;
+	transition: background 0.3s;
+	outline: none;
+}
+
+.ranklist .btn_more:hover {
+	background: darkgray;
+	cursor: pointer;
+}

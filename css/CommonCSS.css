@@ -1,0 +1,243 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	list-style: none;
+}
+
+body {
+	background: #f6f6f6;
+}
+
+.wrap {
+	width: 100%;
+	height: 100%;
+	background: #f6f6f6;
+}
+
+/*顶部logo和nav*/
+
+.top {
+	min-width: 1200px;
+	width: 100%;
+	height: 2.8em;
+	position: relative;
+	border-bottom: 1px solid rgba(225,225,225,.3);
+    box-shadow: 0px 1px 1px rgba(0,0,0,.5);
+}
+
+.top .blurlayer {
+	width: 100%;
+	height: 2.8em;
+	background-image: url(../img/banner.png);
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: 0 -110px;
+    background-repeat: no-repeat;
+	filter: blur(5px);
+	position: absolute;
+}
+
+.top .blurlayer .whitelayer {
+	width: 100%;
+	height: 3.8em;
+	margin-top: -0.8em;
+	position: absolute;
+	background-color: rgba(255,255,255,.4);
+}
+
+.top .top_center {
+	position: absolute;
+	width: 76%;
+	height: 2.8em;
+	margin: 0 12%;
+}
+
+.top .top_center .menu {
+	float: left;
+	width: 50%;
+	height: 2.8em;
+	color: black;
+	font-size: small;
+	text-align: center;
+	line-height: 2.8em;
+}
+
+.top .top_center .nav {
+	float: right;
+}
+
+.top .top_center ul li {
+	width: auto;
+	height: 3.5em;
+	float: left;
+	padding: 0 0.5em;
+	/*margin-right: 0.8em;*/
+	text-align: center;
+	line-height: 3.5em;
+	font-size: small;
+	color: black;
+	background: transparent;
+	transition: background 0.3s;
+	-webkit-transition: background 0.3s;
+}
+
+.normal_li a {
+	color: black;
+	text-decoration: none;
+}
+
+.top .top_center .normal_li:hover {
+	background: rgba(255,255,255,.3);
+	cursor: pointer;
+}
+
+.top .top_center .avater img {
+	vertical-align: middle;
+	width: 32px;
+	border-radius: 50%;
+}
+
+.top .top_center .avater img:hover {
+	cursor: pointer;
+}
+
+.top .top_center .bigli {
+	background-color: rgb(232,82,115);
+	border-radius: 5px;
+	height: 67px;
+	margin-top: -15px;
+	width: 60px;
+	font-weight: bold;
+	font-size: medium;
+	line-height: 71px;
+	color: white;
+	transition: background 0.3s;
+	-webkit-transition: background 0.3s;
+}
+
+.top .top_center .bigli:hover {
+	background-color: rgb(255,105,138);
+	cursor: pointer;
+}
+
+/*主要内容*/
+
+.main {
+	min-width: 1200px;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	margin: 0 auto;
+}
+
+/*banner*/
+
+.banner {
+	min-width: 1200px;
+	width: 100%;
+	height: 170px;
+	background-image: url(../img/banner.png);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 0 -110px;
+	background-size: cover;
+	margin-bottom: 10px;
+	margin-top: -45px;
+	font-size: 50px;
+	box-shadow: 0 1px 3px lightgray;
+}
+
+.banner .weblogo {
+	width: 224px;
+	height: 101px;
+	min-width: 224px;
+	background-image: url(../img/WebLOGO.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 200px;
+	top: 60px;
+}
+
+.banner .weblogo:hover {
+	cursor: pointer;
+}
+
+.banner .search_box {
+	min-width: 200px;
+	float: right;
+	margin-top: 110px;
+	margin-right: 12%;
+}
+
+.banner .search_box:hover .search_bar {
+	background: rgba(255,255,255,1);
+}
+
+.banner .search_box .search_bar {
+	float: left;
+	font-size: 12px;
+	padding: 0.75em 4em 0.75em 1em;
+	width: 250px;
+	border-radius: 5px;
+	background: rgba(255,255,255,.9);
+	outline: none;
+	box-shadow: 0 0 0 2px rgba(0,0,0,.15);
+	transition: background 0.3s;
+	-webkit-transition: background 0.3s;
+}
+
+.banner .search_box .search_btn {
+	float: left;
+	width: 4em;
+	height: 31px;
+	margin-left: -4em;
+	border-radius: 5px;
+	background: url(../img/icons.png) -645px -722px no-repeat;
+	outline: none;
+}
+
+.banner .search_box .search_btn:hover {
+	background: url(../img/icons.png) -710px -722px no-repeat;
+	cursor: pointer;
+}
+
+.bottom {
+	width: 100%;
+	height: 100px;
+}
+
+.bottom .bottom_con {
+	width: 1000px;
+	height: 100px;
+	margin: 0 auto;
+	background: #333;
+	font-size: x-small;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+.bottom .bottom_con .bottom_banner {
+	width: 320px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.bottom_banner .ad {
+	width: 40px;
+	height: 40px;
+	background-image: url(../img/icons.png);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position-x: -1035px;
+	float: left;
+	margin: 35px 20px;
+	border-radius: 50%;
+}
+
+.bottom_banner .ad:hover {
+	background-position-x: -1099px;
+	cursor: pointer;
+}
