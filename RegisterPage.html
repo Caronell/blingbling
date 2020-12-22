@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" href="css/CommonCSS.css" />
+		<link rel="stylesheet" href="css/verify.css" />
+		<link rel="stylesheet" href="css/RegisterCSS.css" />
+		<link rel="icon" href="img/Icon.ico"  type="image/x-icon"/>
+		<script type="text/javascript" src="js/jquery-2.1.4-min.js"></script>
+		<script type="text/javascript" src="js/verify.js"></script>
+		<script type="text/javascript" src="js/CommonJS.js"></script>
+		<script type="text/javascript" src="js/RegisterJS.js"></script>
+	</head>
+
+	<body>
+		<div class="warp">
+			<div class="top">
+				<div class="blurlayer">
+					<div class="whitelayer"></div>
+				</div>
+				<div class="top_center">
+					<div class="menu">
+						<ul>
+							<li class="normal_li" style="width: 4em;">
+								<a href="index.html">
+									<img src="img/Bling.png" width="16px" /> 主站
+								</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">音频</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">游戏中心</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">直播</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">周边</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">漫画</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">活动</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">下载APP</a>
+							</li>
+						</ul>
+					</div>
+					<div class="nav">
+						<ul>
+							<li class="avater">
+								<img src="img/avater.jpg" />
+							</li>
+							<li class="normal_li" style="margin-right: 0.8em;">
+								<a href="#">历史</a>
+							</li>
+							<li class="bigli" onclick="window.location.href='RegisterPage.html'">注册</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="main">
+				<div class="banner" style="margin-bottom: 0;">
+					<div class="weblogo" onclick="window.location.href = 'index.html'"></div>
+					<form class="search_box">
+						<input id="search_bar" class="search_bar" type="search" placeholder="鸡你太美" />
+						<button class="search_btn" type="button" onclick="Search()"></button>
+					</form>
+				</div>
+				<div class="register_box">
+					<div class="register_bg"></div>
+					<div class="register_main">
+						<div class="line_short"></div>
+						<div class="welcome">
+							新用户注册
+						</div>
+						<div class="line_short"></div>
+						<form class="register_form">
+							<div class="sub_title">★ 以下内容均为必填项 ★</div>
+							<div class="con">
+								<input id="username_input" class="msg_input" type="text" placeholder="昵称" onblur="NameCheck()" />
+								<p id="username_warning" class="warning_msg"></p>
+							</div>
+							<div class="con">
+								<input id="password_input" class="msg_input" type="password" placeholder="密码（6-16个字符组成，区分大小写）" onblur="PwdCheck()" />
+								<p id="password_warning" class="warning_msg"></p>
+							</div>
+							<div class="con">
+								<input id="re-password_input" class="msg_input" type="password" placeholder="再次输入密码" onblur="RepwdCheck()" />
+								<p id="re-password_warning" class="warning_msg"></p>
+							</div>
+							<div class="con">
+								<input id="email_input" class="msg_input" type="email" placeholder="电子邮箱" onblur="EmailCheck()" />
+								<p id="email_warning" class="warning_msg"></p>
+							</div>
+							<div class="con">
+								<input id="tel_input" class="msg_input" type="tel" placeholder="填写常用手机号" onblur="TelCheck()" />
+								<p id="tel_warning" class="warning_msg"></p>
+							</div>
+							<div class="con">
+								<div class="identify">
+									<div id="mpanel4"></div>
+								</div>
+							</div>
+							<button id="submit_form" class="submit_form_no" type="button" disabled="disabled" onclick="Register()">注册</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="bottom_con">
+					广播电视节目制作经营许可证：| 网络文化经营许可证：| 信息网络传播视听节目许可证：| 互联网ICP备案：| 违法不良信息举报邮箱：| 违法不良信息举报电话：
+					<div class="bottom_banner">
+						<img class="ad" src="img/blank.png" style="background-position-y: -459px;" onclick="window.location.href='#'" />
+						<img class="ad" src="img/blank.png" style="background-position-y: -524px;" onclick="window.location.href='#'" />
+						<img class="ad" src="img/blank.png" style="background-position-y: -589px;" onclick="window.location.href='#'" />
+						<img class="ad" src="img/blank.png" style="background-position-y: -654px;" onclick="window.location.href='#'" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+		$('#mpanel4').slideVerify(
+		{
+			type: 2, //类型
+			vOffset: 5, //误差量，根据需求自行调整
+			vSpace: 5, //间隔
+			imgName: ['1.jpg', '2.jpg'],
+			imgSize:
+			{
+				width: '100%',
+				height: '200px',
+			},
+			blockSize:
+			{
+				width: '40px',
+				height: '40px',
+			},
+			barSize:
+			{
+				width: '100%',
+				height: '40px',
+			},
+			ready: function() {},
+			success: function()
+			{
+				VertifyPass();
+				RegisterCheck();
+			},
+			error: function()
+			{
+				//alert('验证失败！');
+			}
+		});
+	</script>
+
+</html>

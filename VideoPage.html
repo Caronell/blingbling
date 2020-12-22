@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>【Besiege】【中世纪科技】我今天就是想捶死在座的各位</title>
+		<link rel="stylesheet" href="css/CommonCSS.css" />
+		<link rel="stylesheet" href="css/VideoPage.css" />
+		<link rel="stylesheet" href="css/DanmuPlayerCSS.css" />
+		<link rel="stylesheet" href="css/BootstrapCSS.css" />
+		<link rel="stylesheet" href="css/colpickCSS.css" />
+		<link rel="stylesheet" href="css/scoCSS.css" />
+		<link rel="stylesheet" href="css/ScrollToTop.css" />
+		<link rel="icon" href="img/Icon.ico"  type="image/x-icon"/>
+		<script type="text/javascript" src="js/jquery-2.1.4-min.js"></script>
+		<script type="text/javascript" src="js/jquery.danmu.js"></script>
+		<script type="text/javascript" src="js/DanmuPlayer.js"></script>
+		<script type="text/javascript" src="js/colpick.js"></script>
+		<script type="text/javascript" src="js/jquery.shCircleLoader.js"></script>
+		<script type="text/javascript" src="js/sco.tooltip.js"></script>
+		<script type="text/javascript" src="js/CommonJS.js" ></script>
+		<script type="text/javascript" src="js/VideoPageJS.js"></script>
+		<script type="text/javascript" src="js/ScrollToTop.js" ></script>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="top">
+				<div class="blurlayer">
+					<div class="whitelayer"></div>
+				</div>
+				<div class="top_center">
+					<div class="menu">
+						<ul>
+							<li class="normal_li" style="width: 4em;">
+								<a href="index.html">
+									<img src="img/Bling.png" width="16px" /> 主站
+								</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">音频</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">游戏中心</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">直播</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">周边</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">漫画</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">活动</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">下载APP</a>
+							</li>
+						</ul>
+					</div>
+					<div class="nav">
+						<ul>
+							<li class="avater">
+								<img src="img/avater.jpg" />
+							</li>
+							<li class="normal_li" style="margin-right: 0.8em;"><a href="#">历史</a></li>
+							<li class="bigli" onclick="window.location.href='RegisterPage.html'">注册</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="main">
+				<div class="banner">
+					<div class="weblogo" onclick="window.location.href = 'index.html'"></div>
+					<form class="search_box">
+						<input id="search_bar" class="search_bar" type="search" placeholder="鸡你太美" />
+						<button class="search_btn" type="button" onclick="Search()"></button>
+					</form>
+				</div>
+				<div class="main_con">
+					<div class="video_box">
+						<div class="inner_video_box">
+							<div class="video_info">
+								<p class="video_title">【Besiege】【中世纪科技】我今天就是想捶死在座的各位</p>
+								<p class="video_sub">脑洞大开的产物，结果意外的喜感233</p>
+								<div class="line3">
+									<p class="video_time">投稿时间：2018-10-01 19:37:28</p>
+									<p class="complaint" onclick="alert('您的消息已收到（然而并没有~(￣▽￣)~）')">稿件投诉</p>
+								</div>
+								<div class="other_info">
+									<div class="info_box">
+										<img class="play_times" src="img/blank.png" title="总播放数" style="background-position: -659px -212px;" />
+										<p title="总播放数">233</p>
+									</div>
+									<div class="info_box">
+										<img class="danmu_num" src="img/blank.png" title="总弹幕数" style="background-position: -659px -277px;" />
+										<p title="总弹幕数">22</p>
+									</div>
+									<div class="vertical_line_short"></div>
+									<div class="info_box" style="width: 15%;">
+										<img class="coin_num" src="img/blank.png" title="投币数" style="background-position: -404px -468px;" />
+										<p title="投币数">硬币 33</p>
+									</div>
+									<div class="info_box" style="width: 15%;">
+										<img class="favorite_num" src="img/blank.png" title="收藏数" style="background-position: -723px -468px;" />
+										<p title="收藏数">收藏 666</p>
+									</div>
+								</div>
+							</div>
+							<div class="author_info">
+								<div class="author_avator_box">
+									<div class="author_avator"></div>
+								</div>
+								<div class="author_text">
+									<div class="line1">
+										<div class="author_name">Caronell</div>
+										<div class="send_msg" onclick="SendMessage()">
+											<img src="img/blank.png" style="background-position: -276px -2004px;" />
+											<p>发消息</p>
+										</div>
+									</div>
+									<div class="author_sign">
+										<p>这个人懒死了，什么都没有写╮(╯-╰)╭</p>
+									</div>
+									<div class="post_num">
+										<p title="投稿数">投稿：1</p>
+									</div>
+									<div class="fans_num">
+										<p title="粉丝数">粉丝：60</p>
+									</div>
+									<button id="btn_follow" class="gz" type="button" onclick="guanzhu()" onmouseenter="ChangeText_enter()" onmouseleave="ChangeText_leave()">
+										+ 关注
+									</button>
+									<button id="send_stone" class="send_stone" type="button" onclick="alert('已投食~')">
+										投矿
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="video_main">
+						<div id="danmup">
+
+						</div>
+					</div>
+					<div class="horizon_line_long"></div>
+					<div class="pic_show">
+						<p class="div_title">看过该视频的还喜欢：</p>
+						<div class="con">
+							<img src="img/videopic1.jpg" onclick="window.location.href='#'"/>
+							<span class="con_title" onclick="window.location.href='#'">【Besiege】同志！喀秋莎！</span>
+						</div>
+						<div class="con">
+							<img src="img/videopic2.jpg" onclick="window.location.href='#'"/>
+							<span class="con_title" onclick="window.location.href='#'">【Besiege】萌新第一辆轮式步战</span>
+						</div>
+						<div class="con">
+							<img src="img/videopic3.jpg" onclick="window.location.href='#'"/>
+							<span class="con_title" onclick="window.location.href='#'">【RM】地图绘制进阶教程</span>
+						</div>
+						<div class="con">
+							<img src="img/videopic4.jpg" onclick="window.location.href='#'"/>
+							<span class="con_title" onclick="window.location.href='#'">【异常】千万别让程序员设计游戏系列</span>
+						</div>
+					</div>
+					<div class="contant">
+						<p class="div_title">评论：</p>
+						<div class="page_jump">
+							<p>共1页</p>
+							<span class="current_floor" onclick="window.location.href='#'">1</span>
+							<span class="other_floor" onclick="window.location.href='#'">下一页</span>
+						</div>
+						<div class="addnew_box">
+							<div class="avater">
+								<img src="img/avater.jpg" />
+							</div>
+							<div class="comment-input">
+								<textarea id="comment_top" class="comment" placeholder="请自觉遵守互联网相关的政策法规，严禁发布色情、暴力、反动的言论。" onblur="SynchronizeInput(this)" onmouseleave="AutoLoseFocus(this)"></textarea>
+								<button id="submit_comment_top" class="submit_comment" onclick="SubmitComment(this)">发表评论</button>
+							</div>
+						</div>
+						<div id="comment_main">
+							<div class="con">
+								<div class="title">
+									<img src="img/avater.jpg" />
+									<p>Caronell</p>
+									<span>#1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;来自PC客户端&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018-10-01</span>
+								</div>
+								<div class="word">
+									短文本测试
+								</div>
+								<div class="horizon_line_long"></div>
+							</div>
+							<div class="con">
+								<div class="title">
+									<img src="img/avater.jpg" />
+									<p>Caronell</p>
+									<span>#2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;来自Android客户端&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018-10-01</span>
+								</div>
+								<div class="word">
+									长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试 长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试 长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试 长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试 长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试 长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试 长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试 长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试 长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试 长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试 长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试 长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试长文本测试
+								</div>
+								<div class="horizon_line_long"></div>
+							</div>
+							<div class="con">
+								<div class="title">
+									<img src="img/avater.jpg" />
+									<p>Caronell</p>
+									<span>#3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;来自IOS客户端&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2018-10-01</span>
+								</div>
+								<div class="word">
+									实际上，评论区的高度是动态的并支持多页的，每页最多显示10条评论，而这点也并不难做。<br /> 用JS判断当前评论数并分页，但这就需要有东西来存储这些评论，比如一个服务器。
+									<br /> 考虑到工程量因此就不做了。（JS读取本地文件实际上并不容易，因此最简单的办法还是服务器……）
+								</div>
+								<div class="horizon_line_long"></div>
+							</div>
+						</div>
+						<div class="addnew_box" id="addnew_box_bottom">
+							<div class="avater">
+								<img src="img/avater.jpg" />
+							</div>
+							<div class="comment-input">
+								<textarea id="comment_bottom" class="comment" placeholder="请自觉遵守互联网相关的政策法规，严禁发布色情、暴力、反动的言论。" onblur="SynchronizeInput(this)" onmouseleave="AutoLoseFocus(this)"></textarea>
+								<button id="submit_comment_bottom" class="submit_comment" onclick="SubmitComment(this)">发表评论</button>
+							</div>
+						</div>
+						<div class="page_jump" id="page_jump_bottom">
+							<p>共1页</p>
+							<span class="current_floor" onclick="window.location.href='#'">1</span>
+							<span class="other_floor" onclick="window.location.href='#'">下一页</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="bottom_con">
+					广播电视节目制作经营许可证：| 网络文化经营许可证：| 信息网络传播视听节目许可证：| 互联网ICP备案：| 违法不良信息举报邮箱：| 违法不良信息举报电话：
+					<div class="bottom_banner">
+						<img class="ad" src="img/blank.png" style="background-position-y: -459px;" onclick="window.location.href='#'"/>
+						<img class="ad" src="img/blank.png" style="background-position-y: -524px;" onclick="window.location.href='#'"/>
+						<img class="ad" src="img/blank.png" style="background-position-y: -589px;" onclick="window.location.href='#'"/>
+						<img class="ad" src="img/blank.png" style="background-position-y: -654px;" onclick="window.location.href='#'"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="#0" class="cd-top" title="返回顶部">Top</a>
+	</body>
+
+	<script>
+		$("#danmup").DanmuPlayer(
+		{
+			src: "video/abc.mp4", //视频源
+			height: "540px", //区域的高度
+			width: "960px" //区域的宽度
+		});
+
+		$("#danmup .danmu-div").danmu("addDanmu", [
+		{
+			"text": "test",
+			color: "white",
+			size: 1,
+			position: 0,
+			time: 1
+		},
+		{
+			"text": "我是帽子绿",
+			color: "green",
+			size: 1,
+			position: 0,
+			time: 500
+		},
+		{
+			"text": "哈哈哈啊哈",
+			color: "#f30",
+			size: 1,
+			position: 0,
+			time: 80
+		},
+		{
+			"text": "中世纪（确信）",
+			color: "orange",
+			size: 1,
+			position: 0,
+			time: 2300
+		}]);
+	</script>
+	<!--DanmuPlayer (//github.com/chiruom/danmuplayer/) - Licensed under the MIT license-->
+</html>

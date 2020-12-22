@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>卟呤卟呤(｡･∀･)ﾉ★Kira~-blingbling</title>
+		<link rel="stylesheet" href="css/CommonCSS.css" />
+		<link rel="stylesheet" href="css/HomePage.css" />
+		<link rel="stylesheet" href="css/ScrollToTop.css" />
+		<link rel="icon" href="img/Icon.ico" type="image/x-icon" />
+		<script type="text/javascript" src="js/jquery-2.1.4-min.js"></script>
+		<script type="text/javascript" src="js/CommonJS.js"></script>
+		<script type="text/javascript" src="js/HomePageJS.js"></script>
+		<script type="text/javascript" src="js/ScrollToTop.js"></script>
+	</head>
+
+	<body onload="Update()">
+		<div class="warp">
+			<div class="top">
+				<div class="blurlayer">
+					<div class="whitelayer"></div>
+				</div>
+				<div class="top_center">
+					<div class="menu">
+						<ul>
+							<li class="normal_li" style="width: 4em;">
+								<a href="index.html">
+									<img src="img/Bling.png" width="16px" /> 主站
+								</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">音频</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">游戏中心</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">直播</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">周边</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">漫画</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">活动</a>
+							</li>
+							<li class="normal_li">
+								<a href="#">下载APP</a>
+							</li>
+						</ul>
+					</div>
+					<div class="nav">
+						<ul>
+							<li class="avater">
+								<img src="img/avater.jpg" />
+							</li>
+							<li class="normal_li" style="margin-right: 0.8em;">
+								<a href="#">历史</a>
+							</li>
+							<li class="bigli" onclick="window.location.href='RegisterPage.html'">注册</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!---->
+			<div class="main">
+				<div class="banner" style="margin-bottom: 0;">
+					<div class="weblogo" onclick="window.location.href = 'index.html'"></div>
+					<form class="search_box">
+						<input id="search_bar" class="search_bar" type="search" placeholder="鸡你太美" />
+						<button class="search_btn" type="button" onclick="Search()"></button>
+					</form>
+				</div>
+				<div class="mid-nav">
+					<ul>
+						<li class="mid-nav-con" onclick="window.location.href = 'index.html'">
+							<img class="pic" src="img/blank.png" style="background-image: url(img/Bling.png); background-size: 20px; margin-top: -3.5px; /">
+							<div class="text">
+								首页
+							</div>
+						</li>
+						<li class="mid-nav-con">
+							<div class="num">
+								67
+							</div>
+							<div class="text">
+								动画
+							</div>
+						</li>
+						<li class="mid-nav-con">
+							<div class="num">
+								138
+							</div>
+							<div class="text">
+								游戏
+							</div>
+						</li>
+						<li class="mid-nav-con">
+							<div class="num">
+								23
+							</div>
+							<div class="text">
+								番剧
+							</div>
+						</li>
+						<li class="mid-nav-con">
+							<div class="num">
+								375
+							</div>
+							<div class="text">
+								音乐
+							</div>
+						</li>
+						<li class="mid-nav-con">
+							<div class="num">
+								67
+							</div>
+							<div class="text">
+								舞蹈
+							</div>
+						</li>
+						<li class="mid-nav-con">
+							<div class="num">
+								45
+							</div>
+							<div class="text">
+								科技
+							</div>
+						</li>
+						<li class="mid-nav-con">
+							<div class="num">
+								134
+							</div>
+							<div class="text">
+								数码
+							</div>
+						</li>
+						<li class="mid-nav-con">
+							<div class="num">
+								999+
+							</div>
+							<div class="text">
+								生活
+							</div>
+						</li>
+						<li class="mid-nav-con">
+							<div class="num">
+								1
+							</div>
+							<div class="text">
+								学习
+							</div>
+						</li>
+						<li class="mid-nav-con">
+							<div class="num">
+								999+
+							</div>
+							<div class="text">
+								娱乐
+							</div>
+						</li>
+						<li class="mid-nav-con">
+							<div class="num">
+								237
+							</div>
+							<div class="text">
+								广告
+							</div>
+						</li>
+						<li class="mid-nav-con">
+							<div class="num">
+								75
+							</div>
+							<div class="text">
+								时尚
+							</div>
+						</li>
+						<li class="mid-nav-con">
+							<div class="num">
+								67
+							</div>
+							<div class="text">
+								鬼畜
+							</div>
+						</li>
+						<li class="mid-nav-con">
+							<div class="num">
+								675
+							</div>
+							<div class="text">
+								影视
+							</div>
+						</li>
+						<li class="mid-nav-con">
+							<div class="num">
+								37
+							</div>
+							<div class="text">
+								放映厅
+							</div>
+						</li>
+						<li class="mid-nav-con" style="margin-top: -0.25%;">
+							<img class="pic" src="img/blank.png" style="background-position: -86px -1814px;"/>
+							<div class="text">
+								专栏
+							</div>
+						</li>
+						<li class="mid-nav-con" style="margin-top: -0.25%;">
+							<img class="pic" src="img/blank.png" style="background-position: -86px -2007px;"/>
+							<div class="text">
+								广场
+							</div>
+						</li>
+						<li class="mid-nav-con" style="margin-top: -0.25%;">
+							<img class="pic" src="img/blank.png" style="background-position: -86px -1878px;"/>
+							<div class="text">
+								直播
+							</div>
+						</li>
+						<li class="mid-nav-con" style="margin-top: -0.25%;">
+							<img class="pic" src="img/blank.png" style="background-position: -86px -1942px; margin-left: 10px;"/>
+							<div class="text">
+								小黑屋
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="video_command">
+					<div class="command_big">
+						<ul id="pic" class="pic" style="margin-left: 0%;" onmouseenter="PauseOn()" onmouseover="PauseOn()" onmouseleave="PauseOff()">
+							<li>
+								<img src="img/adver1.jpg" />
+								<div class="title">
+									巨大身躯向世界进军
+								</div>
+								<div class="readmore">更多 ></div>
+							</li>
+							<li>
+								<img src="img/adver2.jpg" />
+								<div class="title">
+									属于程序员的AI编程游戏
+								</div>
+								<div class="readmore">更多 ></div>
+							</li>
+							<li>
+								<img src="img/adver3.jpg" />
+								<div class="title">
+									赢超前观影机会，遇见火影配乐大师！
+								</div>
+								<div class="readmore">更多 ></div>
+							</li>
+							<li>
+								<img src="img/adver4.jpg" />
+								<div class="title">
+									我们不一样，就是好故事！
+								</div>
+								<div class="readmore">更多 ></div>
+							</li>
+							<li>
+								<img src="img/adver5.jpg" />
+								<div class="title">
+									宝可梦皮卡丘开启全球巡展
+								</div>
+								<div class="readmore">更多 ></div>
+							</li>
+						</ul>
+					</div>
+					<div class="command_small">
+						<div class="line">
+							<div class="con" onclick="window.open('VideoPage.html')">
+								<img src="img/videopic5.jpg" />
+								<div class="title" title="【Besiege】【中世纪科技】我今天就是想捶死在座的各位">
+									<div class="title_text">
+										【Besiege】【中世纪科技】我今天就是想捶死在座的各位
+									</div>
+									<div class="detail">
+										UP主：Caronell<br /> 播放：233
+									</div>
+								</div>
+							</div>
+							<div class="con">
+								<img src="img/videopic4.jpg" />
+								<div class="title" title="游戏推荐：一个程序员才懂的世界">
+									<div class="title_text">
+										游戏推荐：一个程序员才懂的世界
+									</div>
+									<div class="detail">
+										UP主：Caronell<br /> 播放：666
+									</div>
+								</div>
+							</div>
+							<div class="con">
+								<img src="img/videopic7.jpg" />
+								<div class="title" title="逐渐加快のM4">
+									<div class="title_text">
+										逐渐加快のM4
+									</div>
+									<div class="detail">
+										UP主：0v0<br /> 播放：2365
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="line">
+							<div class="con">
+								<img src="img/videopic6.jpg" />
+								<div class="title" title="阿米娅到底是驴还是兔子？简单易懂的明日方舟种族世界">
+									<div class="title_text">
+										阿米娅到底是驴还是兔子？简单易懂的明日方舟种族世界
+									</div>
+									<div class="detail">
+										UP主：泛式<br /> 播放：58.6万
+									</div>
+								</div>
+							</div>
+							<div class="con">
+								<img src="img/videopic8.jpg" />
+								<div class="title" title="鬼泣5 Battle with Vergil">
+									<div class="title_text">
+										鬼泣5 Battle with Vergil
+									</div>
+									<div class="detail">
+										UP主：Sakaki<br /> 播放：22.3万
+									</div>
+								</div>
+							</div>
+							<div class="con">
+								<img src="img/videopic9.jpg" />
+								<div class="title" title="小狐狸是怎么叫的呢？">
+									<div class="title_text">
+										小狐狸是怎么叫的呢？
+									</div>
+									<div class="detail">
+										UP主：打死不拖更<br /> 播放：13.6万
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--这些是可以动态添加的-->
+				<div class="Bling">
+					<div class="area_title">
+						动画
+					</div>
+					<div class="video_area">
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/videopic10.jpg);">
+								<div class="blacklayer">15:03</div>
+							</div>
+							<div class="title" title="B站10个镇站之宝（OP）">B站10个镇站之宝（OP）</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 121.8万
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 8764
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/videopic11.jpg);">
+								<div class="blacklayer">03:06</div>
+							</div>
+							<div class="title" title="篮 球 人 （高技术力）">篮 球 人 （高技术力）</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 158.5万
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 6175
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/videopic12.jpg);">
+								<div class="blacklayer">06:28</div>
+							</div>
+							<div class="title" title="【前方高能】那些让人百看不厌的动画名场景">【前方高能】那些让人百看不厌的动画名场景</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 3.1万
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 114
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/videopic13.jpg);">
+								<div class="blacklayer">01:45</div>
+							</div>
+							<div class="title" title="来自沙雕室友的神奇电话 我笑哭了">来自沙雕室友的神奇电话 我笑哭了</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 213.6万
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 8380
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/videopic14.jpg);">
+								<div class="blacklayer">05:09</div>
+							</div>
+							<div class="title" title="喵内噶，多西大喵内">喵内噶，多西大喵内</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 16.4万
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 1258
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/videopic15.jpg);">
+								<div class="blacklayer">03:07</div>
+							</div>
+							<div class="title" title="【碧蓝航线】绊爱/Kizuna AI - Everybody">【碧蓝航线】绊爱/Kizuna AI - Everybody</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 161.3万
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 6790
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/videopic16.jpg);">
+								<div class="blacklayer">00:49</div>
+							</div>
+							<div class="title" title="奥尔加啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊">奥尔加啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 2.5万
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 130
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/videopic17.jpg);">
+								<div class="blacklayer">02:39</div>
+							</div>
+							<div class="title" title="【RWBY/MAD】THE ARENA">【RWBY/MAD】THE ARENA</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 1万
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 236
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ranklist">
+						<div class="title">排行</div>
+						<div class="ranklist_main">
+							<ul>
+								<li class="rankline" title="2019七月新番导视">
+									<div class="index_top">1</div>
+									<div class="video_name">2019七月新番导视</div>
+								</li>
+								<li class="rankline" title="2019七月新番导视">
+									<div class="index_top">2</div>
+									<div class="video_name">2019七月新番导视</div>
+								</li>
+								<li class="rankline">
+									<div class="index_top" title="2019七月新番导视">3</div>
+									<div class="video_name">2019七月新番导视</div>
+								</li>
+								<li class="rankline">
+									<div class="index_common" title="2019七月新番导视">4</div>
+									<div class="video_name">2019七月新番导视</div>
+								</li>
+								<li class="rankline">
+									<div class="index_common" title="2019七月新番导视">5</div>
+									<div class="video_name">2019七月新番导视</div>
+								</li>
+								<li class="rankline">
+									<div class="index_common" title="2019七月新番导视">6</div>
+									<div class="video_name">2019七月新番导视</div>
+								</li>
+								<li class="rankline">
+									<div class="index_common" title="2019七月新番导视">7</div>
+									<div class="video_name">2019七月新番导视</div>
+								</li>
+							</ul>
+							<button id="btn_more" class="btn_more" type="button">查看更多 ></button>
+						</div>
+					</div>
+				</div>
+
+				<!--这些是可以动态添加的-->
+				<div class="Bling">
+					<div class="area_title">
+						游戏
+					</div>
+					<div class="video_area">
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/videopic18.jpg);">
+								<div class="blacklayer">13:15</div>
+							</div>
+							<div class="title" title="喜只狼的奇妙冒险（第一话）">喜只狼的奇妙冒险（第一话）</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 48.7万
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 6789
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/videopic19.jpg);">
+								<div class="blacklayer">30:06:49</div>
+							</div>
+							<div class="title" title="《底特律：变人》100%完成、全分支、全攻略">《底特律：变人》100%完成、全分支、全攻略</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 130.9万
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 8175
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/videopic2.jpg);">
+								<div class="blacklayer">16:48</div>
+							</div>
+							<div class="title" title="【Besiege】中世纪战车教程（第一弹）">【Besiege】中世纪战车教程（第一弹）</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 3.2万
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 118
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/videopic4.jpg);">
+								<div class="blacklayer">05:45</div>
+							</div>
+							<div class="title" title="说了多少次了不要让程序员来设计游戏">说了多少次了不要让程序员来设计游戏</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 13.6万
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 838
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/videopic6.jpg);">
+								<div class="blacklayer">05:01</div>
+							</div>
+							<div class="title" title="阿米娅到底是驴还是兔子？简单易懂的明日方舟种族世界">阿米娅到底是驴还是兔子？简单易懂的明日方舟种族世界</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 58.6万
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 7258
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/videopic5.jpg);" onclick="window.open('VideoPage.html')">
+								<div class="blacklayer">03:07</div>
+							</div>
+							<div class="title" title="【Besiege】我今天就是想捶死在座的各位" onclick="window.open('VideoPage.html')">【Besiege】我今天就是想捶死在座的各位</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 661
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 13
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/videopic1.jpg);">
+								<div class="blacklayer">04:49</div>
+							</div>
+							<div class="title" title="当你有了一辆喀秋莎是一种怎样的体验">当你有了一辆喀秋莎是一种怎样的体验</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 2.5万
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 1306
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/videopic8.jpg);">
+								<div class="blacklayer">15:39</div>
+							</div>
+							<div class="title" title="鬼泣5 Battle with Vergil">鬼泣5 Battle with Vergil</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 22.6万
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 2365
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ranklist">
+						<div class="title">排行</div>
+						<div class="ranklist_main">
+							<ul>
+								<li class="rankline" title="喜只狼的奇妙冒险（第一话）">
+									<div class="index_top">1</div>
+									<div class="video_name">喜只狼的奇妙冒险（第一话）</div>
+								</li>
+								<li class="rankline" title="喜只狼的奇妙冒险（第一话）">
+									<div class="index_top">2</div>
+									<div class="video_name">喜只狼的奇妙冒险（第一话）</div>
+								</li>
+								<li class="rankline">
+									<div class="index_top" title="喜只狼的奇妙冒险（第一话）">3</div>
+									<div class="video_name">喜只狼的奇妙冒险（第一话）</div>
+								</li>
+								<li class="rankline">
+									<div class="index_common" title="喜只狼的奇妙冒险（第一话）">4</div>
+									<div class="video_name">喜只狼的奇妙冒险（第一话）</div>
+								</li>
+								<li class="rankline">
+									<div class="index_common" title="喜只狼的奇妙冒险（第一话）">5</div>
+									<div class="video_name">喜只狼的奇妙冒险（第一话）</div>
+								</li>
+								<li class="rankline">
+									<div class="index_common" title="喜只狼的奇妙冒险（第一话）">6</div>
+									<div class="video_name">喜只狼的奇妙冒险（第一话）</div>
+								</li>
+								<li class="rankline">
+									<div class="index_common" title="喜只狼的奇妙冒险（第一话）">7</div>
+									<div class="video_name">喜只狼的奇妙冒险（第一话）</div>
+								</li>
+							</ul>
+							<button id="btn_more" class="btn_more" type="button">查看更多 ></button>
+						</div>
+					</div>
+				</div>
+
+				<!--这些是可以动态添加的-->
+				<div class="Bling">
+					<div class="area_title">
+						分区标题
+					</div>
+					<div class="video_area">
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/Default.jpg);">
+								<div class="blacklayer">00:00</div>
+							</div>
+							<div class="title">视频标题</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 0
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 0
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/Default.jpg);">
+								<div class="blacklayer">00:00</div>
+							</div>
+							<div class="title">视频标题</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 0
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 0
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/Default.jpg);">
+								<div class="blacklayer">00:00</div>
+							</div>
+							<div class="title">视频标题</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 0
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 0
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/Default.jpg);">
+								<div class="blacklayer">00:00</div>
+							</div>
+							<div class="title">视频标题</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 0
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 0
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/Default.jpg);">
+								<div class="blacklayer">00:00</div>
+							</div>
+							<div class="title">视频标题</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 0
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 0
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/Default.jpg);">
+								<div class="blacklayer">00:00</div>
+							</div>
+							<div class="title">视频标题</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 0
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 0
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/Default.jpg);">
+								<div class="blacklayer">00:00</div>
+							</div>
+							<div class="title">视频标题</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 0
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 0
+								</div>
+							</div>
+						</div>
+						<div class="con">
+							<div class="video_cover" style="background-image: url(img/Default.jpg);">
+								<div class="blacklayer">00:00</div>
+							</div>
+							<div class="title">视频标题</div>
+							<div class="info">
+								<div class="playnums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -141px;" /> 0
+								</div>
+								<div class="danmunums">
+									<img class="iconpic" src="img/blank.png" style="background-position: -439px -184px;" /> 0
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ranklist">
+						<div class="title">排行</div>
+						<div class="ranklist_main">
+							<ul>
+								<li class="rankline" title="视频名称">
+									<div class="index_top">1</div>
+									<div class="video_name">视频名称</div>
+								</li>
+								<li class="rankline" title="视频名称">
+									<div class="index_top">2</div>
+									<div class="video_name">视频名称</div>
+								</li>
+								<li class="rankline">
+									<div class="index_top" title="视频名称">3</div>
+									<div class="video_name">视频名称</div>
+								</li>
+								<li class="rankline">
+									<div class="index_common" title="视频名称">4</div>
+									<div class="video_name">视频名称</div>
+								</li>
+								<li class="rankline">
+									<div class="index_common" title="视频名称">5</div>
+									<div class="video_name">视频名称</div>
+								</li>
+								<li class="rankline">
+									<div class="index_common" title="视频名称">6</div>
+									<div class="video_name">视频名称</div>
+								</li>
+								<li class="rankline">
+									<div class="index_common" title="视频名称">7</div>
+									<div class="video_name">视频名称</div>
+								</li>
+							</ul>
+							<button id="btn_more" class="btn_more" type="button">查看更多 ></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="bottom_con">
+					广播电视节目制作经营许可证：| 网络文化经营许可证：| 信息网络传播视听节目许可证：| 互联网ICP备案：| 违法不良信息举报邮箱：| 违法不良信息举报电话：
+					<div class="bottom_banner">
+						<img class="ad" src="img/blank.png" style="background-position-y: -459px;" onclick="window.location.href='#'" />
+						<img class="ad" src="img/blank.png" style="background-position-y: -524px;" onclick="window.location.href='#'" />
+						<img class="ad" src="img/blank.png" style="background-position-y: -589px;" onclick="window.location.href='#'" />
+						<img class="ad" src="img/blank.png" style="background-position-y: -654px;" onclick="window.location.href='#'" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<a href="#0" class="cd-top" title="返回顶部">Top</a>
+	</body>
+
+</html>
